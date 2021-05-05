@@ -259,3 +259,52 @@ body {
 .get-start__text {
     color: var(--dim-grey);
 }
+
+
+/* START EASY TO USE  */
+
+.easy {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-top: 120px;
+    padding-bottom: 65px;
+    background-image: url(../images/easy-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 580px) center;
+}
+
+.easy__info {
+    max-width: 445px;
+    display: flex;
+    flex-direction: column;
+}
+
+.easy__title {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.1px;
+    color: var(--dark-navy);
+    margin-bottom: 25px;
+}
+
+.easy__text {
+    color: var(--dim-grey);
+}
+
+.easy__btn {
+    max-width: 180px;
+    margin-top: 40px;
+    background-color: var(--yellow);
+    border: 3px solid transparent;
+    color: var(--white);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.easy__btn:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border-color: var(--yellow);
+}
