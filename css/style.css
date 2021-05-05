@@ -347,3 +347,43 @@ body {
 .zero__info {
     max-width: 445px;
 }
+
+
+/* START SIGN UP  */
+
+.sign-up {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 102px;
+    padding-bottom: 102px;
+    background-image: url(../images/site-footer-bg-circles.svg);
+    background-repeat: no-repeat;
+    background-position: 450px 150px;
+    background-color: var(--dark-navy);
+}
+
+.sign-up__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sign-up__title {
+    max-width: 415px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.1px;
+    color: var(--white);
+}
+
+.sign-up__btn-group {
+    display: flex;
+}
+
+.sign-up__btn img {
+    display: block;
+}
+
+.sign-up__btn:first-child {
+    margin-right: 20px;
+}
