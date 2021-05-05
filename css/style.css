@@ -440,3 +440,351 @@ body {
 .footer_social-link:hover {
     color: white;
 }
+
+
+/* START PAGES  */
+
+
+/* START ABOUT  */
+
+.about-title {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image: var(--hero-mask), url(../images/about-title-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.about__title {
+    margin: 0;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--white);
+}
+
+.about-title img {
+    position: absolute;
+    top: 68px;
+    left: 1237px;
+}
+
+.about__mobility {
+    padding-top: 250px;
+    padding-bottom: 205px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/about-mobility.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 350px) center;
+}
+
+.about__mobility-info {
+    max-width: 445px;
+}
+
+.about__better {
+    padding-top: 170px;
+    padding-bottom: 170px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/about-better.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% - 410px) center;
+}
+
+.about__better-info {
+    max-width: 445px;
+}
+
+.about__better .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.values {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 78px;
+    padding-bottom: 120px;
+}
+
+.values__title {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.14px;
+    color: var(--dark-navy);
+    text-align: center;
+    margin-bottom: 103px;
+}
+
+.values__list {
+    display: flex;
+    align-items: center;
+}
+
+.values__item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.values__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.values__item-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.values__item-img {
+    border-radius: 240px;
+}
+
+.values__item-number {
+    position: relative;
+    top: -32px;
+    display: inline-flex;
+    padding: 34px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    text-align: center;
+    background-color: var(--yellow);
+    border-radius: 96px;
+}
+
+.values__item-title {
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+}
+
+.values__item-text {
+    text-align: center;
+}
+
+.faqs {
+    padding-bottom: 160px;
+}
+
+.faqs__title {
+    text-align: center;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2.1px;
+    margin-bottom: 65px;
+}
+
+.faqs__how-works {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.faqs__how-work-title {
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.78px;
+    color: var(--dark-navy);
+}
+
+.faqs__how-work-questions {
+    max-width: 730px;
+    margin-bottom: 50px;
+}
+
+.faqs__btn {
+    width: 730px;
+    padding: 32px 40px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+    color: var(--dark-navy);
+    background-color: var(--light-grey);
+    border: none;
+    text-align: left;
+    margin-bottom: 16px;
+    background-image: url(../images/button-bottom.png);
+    background-repeat: no-repeat;
+    background-position: right 40px center;
+    transition: all 0.3s ease;
+}
+
+.faqs__btn-hover:hover {
+    background-color: var(--light-yellow);
+}
+
+.faqs__text {
+    display: none;
+    padding: 0 40px 32px 40px;
+    background-color: var(--light-grey);
+    margin-bottom: 16px;
+}
+
+.d-blok {
+    display: block;
+}
+
+
+/* START CAREERS PAGE  */
+
+.careers-title {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image: var(--hero-mask), url(../images/careers-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.careers__title {
+    margin: 0;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--white);
+}
+
+.careers-title img {
+    position: absolute;
+    top: 68px;
+    left: 1237px;
+}
+
+.careers__care {
+    padding-top: 180px;
+    padding-bottom: 185px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/careers-img1.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 350px) center;
+}
+
+.careers__care-info {
+    max-width: 445px;
+}
+
+.offers {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 160px;
+}
+
+.offers__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.offers__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 40px;
+    background-color: var(--light-grey);
+}
+
+.offers__item:not(:last-child) {
+    margin-bottom: 25px;
+}
+
+.offers__item-title {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
+}
+
+.offers__item-btn {
+    padding: 14px 67px;
+    background-color: var(--yellow);
+    color: var(--white);
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.offers__item-btn:hover {
+    background-color: transparent;
+    border-color: var(--yellow);
+    color: var(--yellow);
+}
+
+
+/* START LOCATION */
+
+.locations__info {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-bottom: 120px;
+}
+
+.location-title {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    background-image: var(--hero-mask), url(../images/careers-bg-img.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.location__title {
+    margin: 0;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--white);
+}
+
+.location-title img {
+    position: absolute;
+    top: 68px;
+    left: 1237px;
+}
+
+.locations__map {
+    display: flex;
+    align-items: center;
+    margin: 120px auto;
+}
+
+.locations__info .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.locations__title {
+    max-width: 351px;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+.locations__text {
+    max-width: 445px;
+}
+
+.locations__btn {
+    display: block;
+    padding: 15px 45px;
+    text-decoration: none;
+    font-family: "Space Mono";
+    color: var(--white);
+    background-color: var(--yellow);
+}
