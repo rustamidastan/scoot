@@ -272,7 +272,7 @@ body {
     padding-bottom: 65px;
     background-image: url(../images/easy-bg-img.jpg);
     background-repeat: no-repeat;
-    background-position: calc(50% + 580px) center;
+    background-position: calc(50% + 530px) center;
 }
 
 .easy__info {
@@ -319,7 +319,7 @@ body {
     margin: 0 auto;
     background-image: url(../images/coming-bg-img.jpg);
     background-repeat: no-repeat;
-    background-position: calc(50% - 660px) center;
+    background-position: calc(50% - 610px) center;
 }
 
 .coming__container {
@@ -328,5 +328,22 @@ body {
 }
 
 .coming__info {
+    max-width: 445px;
+}
+
+
+/* START ZERO SECTION  */
+
+.zero {
+    padding-top: 42px;
+    padding-bottom: 266px;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-image: url(../images/zero-bg-img.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 620px) 0;
+}
+
+.zero__info {
     max-width: 445px;
 }
