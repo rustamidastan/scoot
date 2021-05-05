@@ -8,6 +8,7 @@
     --snow: #F2F5F9;
     --light-yellow: #FFF4DF;
     --white: #fff;
+    --hero-mask: linear-gradient( rgba(73, 85, 103, 0.8), rgba(73, 85, 103, 0.8));
 }
 
 
@@ -71,6 +72,11 @@ body {
     text-decoration: none;
 }
 
+.heading {
+    font-weight: 700;
+    font-family: "Space Mono";
+}
+
 .siteheader {
     padding-top: 21px;
     padding-bottom: 21px;
@@ -98,6 +104,14 @@ body {
     margin-left: auto;
     background-color: var(--yellow);
     color: var(--white);
+    border: 3px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.sitenav__btn:hover {
+    border-color: var(--yellow);
+    background-color: var(--white);
+    color: var(--yellow);
 }
 
 .sitenav__item:not(:last-child) {
@@ -109,4 +123,78 @@ body {
     line-height: 25px;
     font-weight: 700;
     color: var(--dim-grey);
+    transition: all 0.3s ease;
+}
+
+.sitenav__link:hover {
+    color: var(--yellow);
+}
+
+
+/* START HERO  */
+
+.site-hero {
+    position: relative;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: var(--hero-mask), url("../images/hero-bg-image.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.hero__title {
+    margin: 0;
+    padding: 0;
+    max-width: 500px;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -2.5px;
+    color: var(--white);
+}
+
+.hero__info {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.hero__info img:first-child {
+    margin-top: 35px;
+}
+
+.hero__info img:nth-child(3) {
+    margin-top: 35px;
+    margin-right: 100px;
+}
+
+.hero__info-group {
+    max-width: 405px;
+    margin-left: 60px;
+    margin-right: 40px;
+}
+
+.hero__info-text {
+    color: var(--white);
+    margin-bottom: 60px;
+}
+
+.hero__btn {
+    background-color: var(--yellow);
+    color: var(--white);
+    border: 3px solid transparent;
+    transition: all .3s ease;
+}
+
+.hero__btn:hover {
+    border-color: var(--yellow);
+    background-color: transparent;
+    color: var(--yellow);
+}
+
+.hero__info img:nth-child(4) {
+    position: absolute;
+    top: 423px;
+    left: 1254px;
 }
