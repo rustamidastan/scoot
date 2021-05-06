@@ -786,5 +786,13 @@ body {
     text-decoration: none;
     font-family: "Space Mono";
     color: var(--white);
+    border: 3px solid transparent;
     background-color: var(--yellow);
+    transition: all 0.3s ease;
+}
+
+.locations__btn:hover {
+    background-color: transparent;
+    color: var(--yellow);
+    border-color: var(--yellow);
 }
