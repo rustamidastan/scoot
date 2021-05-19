@@ -893,8 +893,11 @@ body {
 }
 
 .city__link {
-    max-width: 311px;
+    width: 290px;
     height: 72px;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -1px;
     background-color: var(--light-yellow);
     color: var(--dark-navy);
     text-align: center;
@@ -902,6 +905,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 3px solid var(--light-yellow);
+}
+
+.city__link:hover {
+    background-color: transparent;
 }
 
 .city__link:not(:last-child) {
