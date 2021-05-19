@@ -10,11 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
     <header class="siteheader">
         <div class="header__container container">
+            <div class="sitenav__hamurger-menu">
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+            </div>
             <a href="../index.html" class="site-logo"><img src="../images/header-logo.svg" alt="site logo" width="108" height="29"></a>
             <nav class="sitenav">
                 <ul class="sitenav__list list">
@@ -43,6 +49,13 @@
     </div>
 
     <img class="locations__map" src="../images/locations-map.png" alt="locations map" width="1110" height="543">
+    <img src="../images/map-mobilee.png" alt="map" class="locations__map-mobile" width="311" height="152">
+    <div class="container location__cities">
+        <a href="#" class="city__link heading">New York</a>
+        <a href="#" class="city__link heading">London</a>
+        <a href="#" class="city__link heading">Jakarta</a>
+        <a href="#" class="city__link heading">Yokohama</a>
+    </div>
 
     <div class="locations__info">
         <div class="container">
@@ -52,6 +65,15 @@
         </div>
     </div>
 
+    <section class="sign-up">
+        <div class="container sign-up__container">
+            <h2 class="sign-up__title heading">Sign up and Scoot off today</h2>
+            <div class="sign-up__btn-group">
+                <a class="sign-up__btn" href="#"><img src="../images/app-store.svg" alt="app store" width="160" height="56"></a>
+                <a class="sign-up__btn" href="#"><img src="../images/google-play.svg" alt="google play" width="182" height="56"></a>
+            </div>
+        </div>
+    </section>
 
     <footer class="site-footer ">
         <div class="container footer__container ">

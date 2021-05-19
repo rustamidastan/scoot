@@ -10,12 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
     <header class="siteheader">
         <div class="header__container container">
+
+            <div class="sitenav__hamurger-menu">
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+            </div>
             <a class="site-logo"><img src="images/header-logo.svg" alt="site logo" width="108" height="29"></a>
+
             <nav class="sitenav">
                 <ul class="sitenav__list list">
                     <li class="sitenav__item">
@@ -30,6 +38,7 @@
                 </ul>
             </nav>
 
+
             <a href="#" class="sitenav__btn btn">Get Scootin</a>
         </div>
     </header>
@@ -41,13 +50,13 @@
             </h1>
         </div>
         <div class="hero__info">
-            <img src="images/site-hero-horizontal-line.svg" alt="horizantal line" width="203" height="30">
+            <img class="hero__info-first-image" src="images/site-hero-horizontal-line.svg" alt="horizantal line" width="203" height="30">
             <div class="hero__info-group">
                 <p class="hero__info-text">Scoot takes the hassle out of urban mobility. Our bikes are placed in convenient locations in each of our cities. Use our app to locate the nearest bike, unlock it with a tap, and you’re away!</p>
                 <a href="#" class="btn hero__btn">Get Scootin</a>
             </div>
-            <img src="images/yellow-arrow-to-right.svg" alt="arrow to right" width="447" height="100">
-            <img src="images/site-hero-bg-circles.svg" alt="circles" width="234" height="63">
+            <img class="hero__info-second-image" src="images/yellow-arrow-to-right.svg" alt="arrow to right" width="447" height="100">
+            <img class="hero__info-last-image" src="images/site-hero-bg-circles.svg" alt="circles" width="234" height="63">
         </div>
 
     </section>
@@ -56,25 +65,22 @@
         <div class="container get-start__container">
             <ul class="get-start__list list">
                 <li class="get-start__item">
-                    <div class="get-start__item-image">
-                        <img class="get-start__item-img" src="images/locate-with-app.svg" alt="image" width="38" height="48">
+                    <div class="get-start__item-wrapper">
+                        <h3 class="get-start__title heading">Locate with app</h3>
+                        <p class="get-start__text">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
                     </div>
-                    <h3 class="get-start__title heading">Locate with app</h3>
-                    <p class="get-start__text">Use the app to find the nearest scooter to you. We are continuously placing scooters in the areas with most demand, so one should never be too far away. </p>
                 </li>
                 <li class="get-start__item">
-                    <div class="get-start__item-image">
-                        <img class="get-start__item-img" src="images/pick-your-scooter.svg" alt="image" width="42" height="32">
+                    <div class="get-start__item-wrapper">
+                        <h3 class="get-start__title heading">Pick your scooter</h3>
+                        <p class="get-start__text">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
                     </div>
-                    <h3 class="get-start__title heading">Pick your scooter</h3>
-                    <p class="get-start__text">We show the most important info for the scooters closest to you. So you know how much charge they have left and can see roughly how much it will cost.</p>
                 </li>
                 <li class="get-start__item">
-                    <div class="get-start__item-image">
-                        <img class="get-start__item-img" src="images/enjoy-the-ride.svg" alt="image" width="40" height="40">
+                    <div class="get-start__item-wrapper">
+                        <h3 class="get-start__title heading">Enjoy the ride</h3>
+                        <p class="get-start__text">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
                     </div>
-                    <h3 class="get-start__title heading">Enjoy the ride</h3>
-                    <p class="get-start__text">Scan the QR code and the bike will unlock. Retract the cable lock, put on a helmet, and you’re off! Always lock bikes away from walkways and accessibility ramps.</p>
                 </li>
             </ul>
         </div>
@@ -82,18 +88,19 @@
 
 
     <section class="easy">
-        <div class="container">
+        <div class="container easy__container">
             <div class="easy__info">
                 <h2 class="info__title heading">Easy to use riding telemetry</h2>
                 <p class="info__text">The Scoot app is available with riding telemetry. This means it can show you your average speed, how long you've been using the scooter, your traveling distance, and many more things all in an easy to use app.</p>
                 <a href="#" class="info__btn btn">Learn More</a>
             </div>
+            <img src="images/easy-bg-img.jpg" alt="easy image" class="easy__img" width="1020" height="460">
         </div>
     </section>
 
     <section class="coming">
         <div class="container coming__container">
-            <div></div>
+            <img src="images/coming-bg-img.jpg" alt="coming to the city" class="coming__img" width="1020" height="460">
             <div class="coming__info">
                 <h2 class="info__title heading">
                     Coming to a city near you
@@ -106,7 +113,7 @@
     </section>
 
     <section class="zero">
-        <div class="container">
+        <div class="container zero__container">
             <div class="zero__info">
                 <h2 class="info__title heading">
                     Zero hassle payments
@@ -115,6 +122,7 @@
 
                 <a href="#" class="btn info__btn">Learn More</a>
             </div>
+            <img src="images/zero-bg-img.jpg" alt="zero image" class="zero__img" width="1020" height="460">
         </div>
     </section>
 
@@ -151,6 +159,22 @@
             </div>
         </div>
     </footer>
+
+
+    <script>
+        let button = document.querySelector('.sitenav__hamurger-menu');
+        let siteNav = document.querySelector('.sitenav');
+        let siteNavBtn = document.querySelector('.sitenav__btn');
+        button.addEventListener('click', function() {
+            if (siteNav.style.display == "none")
+                siteNav.style.display = "block";
+            else siteNav.style.display = "none";
+            if (siteNavBtn.style.display == "none")
+                siteNavBtn.style.display = "block";
+            else siteNavBtn.style.display = "none";
+
+        })
+    </script>
 </body>
 
 </html>

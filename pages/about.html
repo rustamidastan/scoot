@@ -10,11 +10,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Space+Mono:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
 </head>
 
 <body>
     <header class="siteheader">
         <div class="header__container container">
+            <div class="sitenav__hamurger-menu">
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+                <div class="hamburger__item"></div>
+            </div>
             <a href="../index.html" class="site-logo"><img src="../images/header-logo.svg" alt="site logo" width="108" height="29"></a>
             <nav class="sitenav">
                 <ul class="sitenav__list list">
@@ -44,18 +50,19 @@
 
 
     <section class="about__mobility">
-        <div class="container">
+        <div class="container mobility__container">
             <div class="about__mobility-info">
                 <h2 class="info__title heading">Mobility for the digital era</h2>
                 <p class="info__text">Getting around should be simple (and even fun!) for everyone. We embrace technology to provide low cost, smart access to scooters at your fingertips.</p>
             </div>
+            <img src="../images/about-mobility.png" alt="mobility image" class="mobility__img" width="720" height="445">
         </div>
     </section>
 
 
     <section class="about__better">
-        <div class="container">
-            <div></div>
+        <div class="container better__container">
+            <img src="../images/about-better.png" alt="better image" class="better__img">
             <div class="about__better-info">
                 <h2 class="info__title heading">Better urban living</h2>
                 <p class="info__text">We’re helping connect cities and bring people closer together. Our scooters are also fully-electric and we offset the minimal carbon footprint for each ride.</p>
@@ -99,7 +106,7 @@
         <h2 class=" faqs__title heading ">
             FAQs
         </h2>
-        <div class="faqs__how-works ">
+        <div class="faqs__how-works">
             <h3 class="faqs__how-work-title heading ">How it works</h3>
             <div class="faqs__how-work-questions ">
                 <button class="faqs__btn faqs__btn-hover" onclick="myFunction()">How do I download the app?</button>
@@ -129,6 +136,18 @@
             </div>
         </div>
     </section>
+
+    <section class="sign-up">
+        <div class="container sign-up__container">
+            <h2 class="sign-up__title heading">Sign up and Scoot off today</h2>
+            <div class="sign-up__btn-group">
+                <a class="sign-up__btn" href="#"><img src="../images/app-store.svg" alt="app store" width="160" height="56"></a>
+                <a class="sign-up__btn" href="#"><img src="../images/google-play.svg" alt="google play" width="182" height="56"></a>
+            </div>
+        </div>
+    </section>
+
+
 
     <footer class="site-footer ">
         <div class="container footer__container ">
