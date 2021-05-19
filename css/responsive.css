@@ -498,7 +498,9 @@
         margin-bottom: 40px;
     }
     .container {
-        max-width: 83%;
+        width: 100%;
+        padding-left: 8%;
+        padding-right: 8%;
     }
     .sitenav {
         display: none;
@@ -673,6 +675,8 @@
     }
     .careers__care {
         padding-top: 72px;
+        width: 100%;
+        overflow-x: hidden;
     }
     .care__img {
         width: 520px;
@@ -746,8 +750,5 @@
     }
     .sitenav__btn:hover {
         background-color: transparent;
-    }
-    body {
-        overflow-x: hidden;
     }
 }
