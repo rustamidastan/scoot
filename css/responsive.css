@@ -692,7 +692,7 @@
         letter-spacing: -0.8px;
     }
     .offers__item-btn {
-        padding: 14px 102px;
+        padding: 14px 92px;
         margin-top: 16px;
     }
     .locations__map {
@@ -746,5 +746,8 @@
     }
     .sitenav__btn:hover {
         background-color: transparent;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
