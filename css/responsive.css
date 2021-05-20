@@ -716,7 +716,7 @@
         line-height: 32px;
         letter-spacing: -1.43px;
     }
-    .locations__mobile-map {
+    .locations__map-mobile {
         display: flex;
     }
     .location__cities {
