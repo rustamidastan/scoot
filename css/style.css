@@ -917,7 +917,7 @@ body {
 }
 
 .locations__map-mobile {
-    display: flex;
+    display: none;
     align-items: center;
     margin: 72px auto 40px auto;
 }
