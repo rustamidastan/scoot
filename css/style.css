@@ -697,17 +697,25 @@ body {
     background-repeat: no-repeat;
     background-position: right 40px center;
     transition: all 0.3s ease;
+    cursor: pointer;
 }
+
 
 .faqs__btn-hover:hover {
     background-color: var(--light-yellow);
 }
-
+.faqs__btn-active {
+    margin-bottom: 0;
+    background-image: url(../images/button-top.png);
+}
 .faqs__text {
     display: none;
     padding: 0 40px 32px 40px;
     background-color: var(--light-grey);
     margin-bottom: 16px;
+}
+.faqs__text-active {
+    display: block;
 }
 
 .d-blok {
