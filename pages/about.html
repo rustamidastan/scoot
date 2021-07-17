@@ -119,18 +119,18 @@
         <div class="faqs__how-works">
             <h3 class="faqs__how-work-title heading ">How it works</h3>
             <div class="faqs__how-work-questions ">
-                <button class="faqs__btn faqs__btn-hover" onclick="myFunction()">How do I download the app?</button>
+                <button class="faqs__btn faqs__btn-hover">How do I download the app?</button>
                 <p class="faqs__text ">To download the Scoot app, you can search “Scoot” in both the App and Google Play
                     stores. An even simpler way to do it would be to click the relevant link at the bottom of this page
                     and you’ll be re-directed to the correct page.</p>
 
 
-                <button class="faqs__btn faqs__btn-hover" onclick="myFunction1()">Can I find a nearby Scoots?</button>
+                <button class="faqs__btn faqs__btn-hover">Can I find a nearby Scoots?</button>
                 <p class="faqs__text ">To download the Scoot app, you can search “Scoot” in both the App and Google Play
                     stores. An even simpler way to do it would be to click the relevant link at the bottom of this page
                     and you’ll be re-directed to the correct page.</p>
 
-                <button class="faqs__btn faqs__btn-hover" onclick="myFunction2()">Do I need a license to ride?</button>
+                <button class="faqs__btn faqs__btn-hover">Do I need a license to ride?</button>
                 <p class="faqs__text ">To download the Scoot app, you can search “Scoot” in both the App and Google Play
                     stores. An even simpler way to do it would be to click the relevant link at the bottom of this page
                     and you’ll be re-directed to the correct page.</p>
@@ -140,19 +140,19 @@
         <div class="faqs__how-works ">
             <h3 class="faqs__how-work-title heading ">Safe driving</h3>
             <div class="faqs__how-work-questions ">
-                <button class="faqs__btn faqs__btn-hover" onclick="myFunction4()">Should I wear a helmet?</button>
+                <button class="faqs__btn faqs__btn-hover">Should I wear a helmet?</button>
                 <p class="faqs__text ">Yes, please do! All cities have different laws. But we strongly strongly strongly
                     recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as
                     safe as possible while Scooting.</p>
 
 
-                <button class="faqs__btn faqs__btn-hover" onclick="myFunction5()">How about the rules &
+                <button class="faqs__btn faqs__btn-hover">How about the rules &
                     regulations?</button>
                 <p class="faqs__text ">Yes, please do! All cities have different laws. But we strongly strongly strongly
                     recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as
                     safe as possible while Scooting.</p>
 
-                <button class="faqs__btn faqs__btn-hover" onclick="myFunction6()">What if I damage my Scoot?</button>
+                <button class="faqs__btn faqs__btn-hover">What if I damage my Scoot?</button>
                 <p class="faqs__text ">Yes, please do! All cities have different laws. But we strongly strongly strongly
                     recommend always wearing a helmet regardless of the local laws. We like you and we want you to be as
                     safe as possible while Scooting.</p>
@@ -202,23 +202,7 @@
     </footer>
 
 
-    <script>
-        let questions = document.querySelectorAll('.faqs__how-work-questions');
-        questions.forEach(function (item) {
-            let questionTabs = item.querySelectorAll('button');
-            let questionText = item.querySelectorAll('p');
-            let counter = 0;
-            for (let i = 0; i < 3; i++) {
-                questionText.forEach(function (index) {
-                    index.classList.remove('faqs__text-active');
-                })
-                questionTabs[i].addEventListener('click', function () {
-                    questionText[i].classList.toggle('faqs__text-active');
-                    this.classList.toggle('faqs__btn-active');
-                })
-            }
-        })
-    </script>
+
     <script src="../js/main.js">
     </script>
 </body>
